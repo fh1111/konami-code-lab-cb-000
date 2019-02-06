@@ -22,7 +22,7 @@ function init() {
     index = ( codes[index] === key) ? ++index : 0
 
     if (index === codes.lenght){
-      window.alert("Hurray!")
+      window.alert("Hurray!");
       index = 0
     }
   });
